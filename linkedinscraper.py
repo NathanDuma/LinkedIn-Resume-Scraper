@@ -31,7 +31,7 @@ class LinkedinScraper:
 
     def start_scrape(self):
         page_sleep = 0
-        minimum_page_time = time.time() + 240
+        minimum_page_time = time.time() + 180
 
         applicants_page_number = -1
 
